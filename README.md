@@ -7,8 +7,11 @@ Followed medallion architecture and stored data in 3 different layers
 I currently loaded in csv file format in all the layers. In useally we store data in Delta Lake tables.
 
 Input file Location: main/resources/input
+
 Output file Location: main/resources/output
 
 Bronze Layer: main/resources/input/raw_data
+
 Silver Layer: main/resources/input/silver_data
+
 Gold Layer: main/resources/input/gold_data
